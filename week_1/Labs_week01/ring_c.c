@@ -39,8 +39,8 @@ main(int argc, char *argv[]) {
  
     /* Calculate the rank of the next/prev process in the ring.  */
 
-    next = (rank + 1);
-    prev = (rank - 1);
+    next = (rank + 1) % size;
+    prev = (rank - 1 + size) % size;
 
     /* If we are the "master" process (i.e., MPI_COMM_WORLD rank 0),
        put the number of times to go around the ring in the
