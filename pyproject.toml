@@ -8,3 +8,8 @@ dependencies = [
     "mpi4py>=4.1.1",
     "numpy>=2.3.4",
 ]
+
+[tool.uv.workspace]
+members = [
+    "LSM_project_2",
+]
