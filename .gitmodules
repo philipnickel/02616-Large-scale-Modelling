@@ -1,0 +1,3 @@
+[submodule "LSM_project_1"]
+	path = LSM_project_1
+	url = git@github.com:philipnickel/LSM_project_1.git
