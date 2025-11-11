@@ -4,6 +4,3 @@
 [submodule "P1_presentation"]
 	path = P1_presentation
 	url = git@github.com:philipnickel/P1_presentation.git
-[submodule "LSM_project_2"]
-	path = LSM_project_2
-	url = git@github.com:philipnickel/LSM_project_2.git
